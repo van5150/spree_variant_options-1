@@ -1,5 +1,5 @@
 Spree::Admin::ImagesController.class_eval do
-  alias_method :super_load_data, :load_data
+  alias_method :super_load_data, :load_edit_data
 
   # Called in a before_filter
   def load_data
